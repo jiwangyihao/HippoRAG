@@ -16,7 +16,7 @@ setuptools.setup(
     packages=setuptools.find_packages("src"),
     python_requires=">=3.10",
     install_requires=[
-        "torch==2.5.1",
+        "torch>=2.5.1",
         "transformers==4.45.2",
         "vllm>=0.6.6.post1",
         "openai==1.58.1",
