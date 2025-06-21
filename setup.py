@@ -18,7 +18,7 @@ setuptools.setup(
     install_requires=[
         "torch==2.5.1",
         "transformers==4.45.2",
-        "vllm==0.6.6.post1",
+        "vllm>=0.6.6.post1",
         "openai==1.58.1",
         "gritlm==1.0.2",
         "networkx==3.4.2",
